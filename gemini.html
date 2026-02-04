@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaiti Pramanik - Portfolio</title>
+    <style>
+        /* সাধারণ ডিজাইন এবং কালার স্কিম */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; scroll-behavior: smooth; }
+        header { background: #FFA500; color: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; position: fixed; width: 90%; top: 0; z-index: 1000; }
+        .logo { font-size: 24px; font-weight: bold; text-transform: uppercase; }
+        nav a { color: white; text-decoration: none; margin-left: 15px; font-weight: bold; }
+        
+        section { padding: 80px 10%; min-height: 400px; border-bottom: 1px solid #ddd; }
+        .section-title { background: #FFA500; color: white; padding: 10px; text-align: center; margin-bottom: 20px; font-size: 28px; }
+
+        /* হিরো সেকশন */
+        #home { background: #333; color: #FFA500; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 300px; margin-top: 60px; }
+
+        /* স্কিলস ডিজাইন */
+        .skills-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .skill-tag { background: #ccc; padding: 8px 20px; border-radius: 20px; font-weight: bold; }
+
+        /* প্রজেক্টস ডিজাইন */
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .project-item { position: relative; cursor: pointer; border: 150px solid #ddd; overflow: hidden; }
+        .project-item img { width: 100%; display: block; height: 150px; object-fit: cover; }
+        .project-item a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.4); color: white; font-weight: bold; text-decoration: none; font-size: 70px; }
+
+        /* কন্টাক্ট ডিজাইন */
+        #contact { background: #333; color: white; }
+        #contact a { color: #FFA500; text-decoration: none; }
+
+        /* মোবাইল রেসপনসিভ */
+        @media (max-width: 600px) {
+            header { flex-direction: column; width: 100%; padding: 10px 0; }
+            nav { margin-top: 10px; }
+            nav a { margin: 0 5px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">CHAITI PRAMANIK</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Architectural & Interior Designer</h1>
+    <p>Designing modern, functional spaces</p>
+</section>
+
+<section id="about">
+    <div class="section-title">About Me</div>
+    <p>Hi, I'm Chaiti Pramanik, a passionate and detail-oriented Interior Designer[cite: 11, 18]. With 6 years of hands-on experience, I focus on creating spaces that are both stylish and functional[cite: 14, 16]. Committed to delivering client-focused solutions that blend innovation and style[cite: 20].</p>
+</section>
+
+<section id="skills">
+    <div class="section-title">Skills</div>
+    <div class="skills-container">
+        <span class="skill-tag">AutoCAD</span>
+        <span class="skill-tag">SketchUp</span>
+        <span class="skill-tag">Enscape</span>
+        <span class="skill-tag">D5 Animation</span>
+        <span class="skill-tag">3ds Max</span>
+        <span class="skill-tag">Lumion</span>
+        <span class="skill-tag">V-Ray</span>
+        <span class="skill-tag">Photoshop</span>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="section-title">Projects</div>
+    <div class="project-grid">
+        <div class="project-item">
+            <a href="interior.html">Interior</a>
+        </div>
+        <div class="project-item">
+            <a href="exterior.html">Exterior</a>
+        </div>
+        <div class="project-item">
+            <a href="floor-render.html">2D Floor Render</a>
+        </div>
+        <div class="project-item">
+            <a href="animation.html">Animation</a>
+        </div>
+    </div>
+</section>
+
+<section id="service">
+    <div class="section-title">Service</div>
+    <p>Detailed planning, 3D modeling, and high-quality renderings[cite: 15]. We help you bring your dream spaces to life[cite: 12].</p>
+</section>
+
+<section id="contact">
+    <div class="section-title">Contact</div>
+    <p>Email: <a href="mailto:chaitypramanik017@gmail.com">chaitypramanik017@gmail.com</a></p>
+    <p>Phone: +8801744737840</p>
+    <p>Facebook: <a href="https://www.facebook.com/share/1Mtu2eV638/" target="_blank">View Profile</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/chaity-pramanik" target="_blank">View Profile</a></p>
+</section>
+
+</body>
+</html>
